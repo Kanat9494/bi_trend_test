@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'views/splash_screen/splash_screen.dart';
 import 'consts/consts.dart';
 

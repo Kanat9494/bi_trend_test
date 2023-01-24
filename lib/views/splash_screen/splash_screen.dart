@@ -1,7 +1,5 @@
-import 'package:bi_trend_test/consts/colors.dart';
 import 'package:bi_trend_test/consts/consts.dart';
 import 'package:bi_trend_test/widgets_common/applogo_widget.dart';
-import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
