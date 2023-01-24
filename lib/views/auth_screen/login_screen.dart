@@ -1,3 +1,5 @@
+import 'package:bi_trend_test/views/splash_screen/bg_widget.dart';
+
 import '../../consts/consts.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -5,6 +7,8 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return bgWidget(child: Scaffold(
+      body: Container(),
+    ));
   }
 }
