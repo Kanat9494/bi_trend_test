@@ -1,6 +1,7 @@
 import 'package:bi_trend_test/widgets_common/bg_widget.dart';
 import 'package:bi_trend_test/widgets_common/applogo_widget.dart';
 import 'package:bi_trend_test/widgets_common/custom_textfield.dart';
+import 'package:bi_trend_test/widgets_common/our_button.dart';
 import '../../consts/consts.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -24,7 +25,9 @@ class LoginScreen extends StatelessWidget {
                 Align(
                   alignment: Alignment.centerRight,
                   child: TextButton(onPressed: (){}, child: forgetPass.text.make())
-                )
+                ),
+                5.heightBox,
+                ourButton(color: green45, title: login, textColor: whiteColor, onPress: () {}).box.width(context.screenWidth - 50).make(),
               ]
             ).box.white.rounded.padding(const EdgeInsets.all(16)).width(context.screenWidth - 70).make(),
           ]
