@@ -33,6 +33,7 @@ dependencies:
   flutter:
     sdk: flutter
   velocity_x: ^3.6.0
+  get:
 
 dev_dependencies:
 
