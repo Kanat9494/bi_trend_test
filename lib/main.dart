@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'views/splash_screen/splash_screen.dart';
 import 'consts/consts.dart';
 
 void main() {
@@ -13,7 +14,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: appname,
-      theme: ThemeData(),
+      theme: ThemeData(
+        scaffoldBackgroundColor: Colors.transparent,
+        appBarTheme: const AppBarTheme(backgroundColor: Colors.transparent),
+        fontFamily: regular,
+      ),
+      home: const SplashScreen(),
     );
   }
 }
