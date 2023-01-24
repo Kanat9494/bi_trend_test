@@ -1,4 +1,4 @@
-import 'package:bi_trend_test/views/splash_screen/bg_widget.dart';
+import 'package:bi_trend_test/widgets_common/bg_widget.dart';
 import 'package:bi_trend_test/widgets_common/applogo_widget.dart';
 import '../../consts/consts.dart';
 
